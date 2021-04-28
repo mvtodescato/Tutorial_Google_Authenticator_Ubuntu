@@ -23,7 +23,6 @@ Aceite (Y) a utilização da memória pela aplicação e instale ela no sistema.
 O próximo passo é editar o arquivo de configuração da biblioteca pam. Vamos abrir o arquivo `common-auth` que esta localizado na pasta `/etc/pam.d/` com algum editor de texto (neste caso utilizei o vim):
 
 ```shell
-cd /
 sudo vim /etc/pam.d/commom-auth
 ```
 
