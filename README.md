@@ -5,9 +5,9 @@
 Explicação...
 
 
-## Start
+## Ínicio
 
-Lembre-se de instalar o Google Authenticator em seu smartphone... Vamos começar!
+Lembre-se de instalar o Google Authenticator em seu smartphone e confirmar que seu computador está no mesmo fuso-horário do celular... Vamos começar!
 
 #### Passo 1
 
@@ -29,7 +29,9 @@ sudo vim /etc/pam.d/commom-auth
 
 Com o arquivo aberto adicione uma nova linha com o seguinte conteúdo: 
 
->auth  required      pam_google_authenticator.so echo_verification_code
+```shell
+auth  required      pam_google_authenticator.so echo_verification_code
+```
 
 Salve o arquivo (no vim `:wq`).
 
