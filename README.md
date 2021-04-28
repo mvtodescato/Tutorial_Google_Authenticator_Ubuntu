@@ -36,3 +36,14 @@ auth  required      pam_google_authenticator.so echo_verification_code
 Salve o arquivo (no vim `:wq`).
 
 #### Passo 3
+
+Execute o google authenticator no sistema com o seguinte comando no terminal:
+
+```shell
+google-authenticator
+```
+Após isso aceite a autenticação baseada em tempo (Y). Será gerado um QR Code(juntamente com o código que ele representa) e os códigos de emergência. É recomendável anotar os códigos e salvar em algum lugar seguro. No aplicativo do Google Authenticator no seu smarthphone adicione um novo dispositivo lendo o QR Code ou colocando o código.
+
+No terminal aceite ou recuse conforme suas preferências as configurações de login e finalize o processo.
+
+A partir desse momento ao deslogar de seu usuário será necessário autenticar o login com o código de autenticação gerado pelo Google Authenticator no seu smartphone.
