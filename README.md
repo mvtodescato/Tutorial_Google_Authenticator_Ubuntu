@@ -29,9 +29,7 @@ sudo vim /etc/pam.d/commom-auth
 
 Com o arquivo aberto adicione uma nova linha com o seguinte conteúdo: 
 
-```shell
-auth  required      pam_google_authenticator.so echo_verification_code
-```
+>auth  required      pam_google_authenticator.so echo_verification_code
 
 Salve o arquivo (no vim `:wq`).
 
