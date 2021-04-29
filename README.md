@@ -2,7 +2,13 @@
 
 ## Por que autenticar traz mais segurança?
 
-Explicação...
+Autenticar é o ato de confirmar algo como autêntico, ou seja, que reivindica a autoria ou a veracidade. Sendo assim, a autenticação se mostra importante sempre que é necessário segurança, principalmente quando tratamos de login para ter acesso a alguma informação ou ferramenta, sendo utilizada para verificar a identidade do usuário.
+
+A autenticação normalmente depende de um ou mais "fatores de autenticação". Existem basicamente 3 tipos de mecanismos para isso. A autenticação baseada no conhecimento (login e senha), autenticação baseada na propriedade (token gerado em algum dispositivo que pertence ao usuário) e a autenticação baseada na característica (digital, por exemplo). Esses mecanismos contém brechas e falhas, sendo assim, combina-los garante uma segurança adicional. 
+
+A autenticação de dois fatores pode conter esses três mecânimos. Login e senha são necessárias para acesso na grande maioria dos sistemas e utilizando um software como o Google Authenticator temos o token sendo gerado em um dispositivo do usuário que, na maioria das vezes, é protegido pelo acesso com a digital do mesmo. Sendo assim, temos uma garantia de segurança, sendo necessário ao possível invasor quebrar todos esses mecânismos.
+
+Aqui então se encontra um tutorial simples de como proteger seu Ubuntu com a autenticação de dois fatores do Google:
 
 
 ## Ínicio
